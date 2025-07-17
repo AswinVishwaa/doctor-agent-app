@@ -1,0 +1,26 @@
+# Root-level ignores
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.DS_Store
+
+# Backend specific
+backend/.env
+backend/credentials.json
+
+# Frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.vite/
+frontend/.next/
+
+# Logs
+*.log
+
+# VS Code / JetBrains
+.vscode/
+.idea/
